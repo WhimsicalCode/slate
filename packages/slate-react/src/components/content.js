@@ -8,6 +8,7 @@ import {
   IS_ANDROID,
   IS_FIREFOX,
   HAS_INPUT_EVENTS_LEVEL_2,
+  IS_CHROME,
 } from 'slate-dev-environment'
 
 import EVENT_HANDLERS from '../constants/event-handlers'
@@ -81,6 +82,7 @@ class Content extends React.Component {
    */
 
   tmp = {
+    isComposing: false,
     isUpdatingSelection: false,
   }
 
@@ -351,6 +353,16 @@ class Content extends React.Component {
       return
     }
 
+    if (handler === 'onCompositionStart') {
+      this.tmp.isComposing = true
+    }
+
+    if (handler === 'onCompositionEnd') {
+      window.requestAnimationFrame(() => {
+        this.tmp.isComposing = false
+      })
+    }
+
     // COMPAT: There are situations where a select event will fire with a new
     // native selection that resolves to the same internal position. In those
     // cases we don't need to trigger any changes, since our internal model is
@@ -361,7 +373,7 @@ class Content extends React.Component {
     // at the end of a block. The selection ends up to the left of the inserted
     // character instead of to the right. This behavior continues even if
     // you enter more than one character. (2019/01/03)
-    if (!IS_ANDROID && handler === 'onSelect') {
+    if (!IS_ANDROID && !this.tmp.isComposing && handler === 'onSelect') {
       const { editor } = this.props
       const { value } = editor
       const { selection } = value
@@ -370,7 +382,22 @@ class Content extends React.Component {
       const range = findRange(native, editor)
 
       if (range && range.equals(selection.toRange())) {
+        // CHROME:
+        // Every typing will trigger `onSelect`
+        // When typing with IME, the native inputEvent.getTargetRanges() will always return [](seems like a bug in Chrome, Safari is working well),
+        // and with invalid ranges, the onBeforeInput would not insert or update the text and the ranges.
+        // So when using Chrome and with native onBeforeInput event, updateSelection will cause range-conflicts when you are typing some Chinese (or Japanese, Latin,...) characters.
+        // The cursor will always end up on the left of the last input instead of following the typeing.
+        // P.S. HAS_INPUT_EVENTS_LEVEL_2 is not working well in Chrome now
+        // Chrome suppose to support HAS_INPUT_EVENTS_LEVEL_2
+        // however, <'onbeforeinput' in element> is not working well in some versions(e.g. v78.0.x)
+        // so currently HAS_INPUT_EVENTS_LEVEL_2 is not working exactly quiet well in most versoins of Chrome
+        if (IS_CHROME && HAS_INPUT_EVENTS_LEVEL_2) {
+          return
+        }
+
         this.updateSelection()
+
         return
       }
     }
