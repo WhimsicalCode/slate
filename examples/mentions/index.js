@@ -25,8 +25,8 @@ The list of characters was extracted from Wikipedia:
 https://en.wikipedia.org/wiki/List_of_Star_Wars_characters
 */
 
-import { Editor } from 'slate-react'
-import { Value } from 'slate'
+import { Editor } from '@whimsicalcode/slate-react'
+import { Value } from '@whimsicalcode/slate'
 import _ from 'lodash'
 import React from 'react'
 

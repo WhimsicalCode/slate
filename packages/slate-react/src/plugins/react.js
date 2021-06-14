@@ -1,4 +1,4 @@
-import PlaceholderPlugin from 'slate-react-placeholder'
+import PlaceholderPlugin from '@whimsicalcode/slate-react-placeholder'
 import React from 'react'
 
 import DOMPlugin from './dom'

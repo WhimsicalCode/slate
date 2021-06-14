@@ -1,8 +1,8 @@
 import assert from 'assert'
-import { Value } from 'slate'
-import { fixtures } from 'slate-dev-test-utils'
+import { Value } from '@whimsicalcode/slate'
+import { fixtures } from '@whimsicalcode/slate-dev-test-utils'
 
-describe('slate-hyperscript', () => {
+describe('@whimsicalcode/slate-hyperscript', () => {
   fixtures(__dirname, 'fixtures', ({ module }) => {
     const { input, output, options } = module
     const actual = input.toJSON(options)

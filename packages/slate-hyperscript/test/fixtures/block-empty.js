@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import h from 'slate-hyperscript'
+import h from '@whimsicalcode/slate-hyperscript'
 
 export const input = <block type="paragraph" />
 

@@ -24,12 +24,12 @@
     "prop-types": "^15.5.8",
     "react-immutable-proptypes": "^2.1.0",
     "selection-is-backward": "^1.0.0",
-    "slate-base64-serializer": "^0.2.99",
-    "slate-dev-environment": "^0.2.2",
-    "slate-hotkeys": "^0.2.9",
-    "slate-plain-serializer": "^0.6.38",
-    "slate-prop-types": "^0.5.29",
-    "slate-react-placeholder": "^0.1.17",
+    "@whimsicalcode/slate-base64-serializer": "^0.2.99",
+    "@whimsicalcode/slate-dev-environment": "^0.2.2",
+    "@whimsicalcode/slate-hotkeys": "^0.2.9",
+    "@whimsicalcode/slate-plain-serializer": "^0.6.38",
+    "@whimsicalcode/slate-prop-types": "^0.5.29",
+    "@whimsicalcode/slate-react-placeholder": "^0.1.17",
     "tiny-invariant": "^1.0.1",
     "tiny-warning": "^0.0.3"
   },
@@ -37,7 +37,7 @@
     "immutable": ">=3.8.1",
     "react": ">=0.14.0",
     "react-dom": ">=0.14.0",
-    "slate": ">=0.43.6"
+    "@whimsicalcode/slate": ">=0.43.6"
   },
   "devDependencies": {
     "immutable": "^3.8.1",

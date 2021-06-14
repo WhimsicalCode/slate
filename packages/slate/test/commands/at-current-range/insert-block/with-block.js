@@ -1,7 +1,7 @@
 /** @jsx h */
 
 import h from '../../../helpers/h'
-import { Block } from 'slate'
+import { Block } from '@whimsicalcode/slate'
 
 export default function(editor) {
   editor.insertBlock(Block.create({ type: 'quote' }))

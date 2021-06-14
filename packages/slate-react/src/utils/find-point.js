@@ -1,6 +1,6 @@
 import getWindow from 'get-window'
 import invariant from 'tiny-invariant'
-import { Value } from 'slate'
+import { Value } from '@whimsicalcode/slate'
 
 import OffsetKey from './offset-key'
 

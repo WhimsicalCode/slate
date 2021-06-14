@@ -1,6 +1,6 @@
 import getWindow from 'get-window'
 import invariant from 'tiny-invariant'
-import { Value } from 'slate'
+import { Value } from '@whimsicalcode/slate'
 
 import findNode from './find-node'
 import findRange from './find-range'

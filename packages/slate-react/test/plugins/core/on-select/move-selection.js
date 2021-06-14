@@ -1,7 +1,7 @@
 /** @jsx h */
 
 import h from '../../../helpers/h'
-import { Selection } from 'slate'
+import { Selection } from '@whimsicalcode/slate'
 
 export default function(simulator) {
   const { value } = simulator

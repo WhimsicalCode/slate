@@ -1,6 +1,6 @@
 import assert from 'assert'
-import { fixtures } from 'slate-dev-test-utils'
-import { Node, Editor, Value } from 'slate'
+import { fixtures } from '@whimsicalcode/slate-dev-test-utils'
+import { Node, Editor, Value } from '@whimsicalcode/slate'
 
 const plugins = [
   {
@@ -24,7 +24,7 @@ const plugins = [
   },
 ]
 
-describe('slate', () => {
+describe('@whimsicalcode/slate', () => {
   fixtures(__dirname, 'models/leaf', ({ module }) => {
     const { input, output } = module
     const fn = module.default

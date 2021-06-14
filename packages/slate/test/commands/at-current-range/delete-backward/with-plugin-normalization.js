@@ -1,7 +1,7 @@
 /** @jsx h */
 
 import h from '../../../helpers/h'
-import { Block, Text } from 'slate'
+import { Block, Text } from '@whimsicalcode/slate'
 
 function normalizeNode(node, editor, next) {
   if (node.type === 'container' && node.nodes.first().type === 'container') {

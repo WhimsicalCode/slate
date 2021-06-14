@@ -2,7 +2,7 @@ import Debug from 'debug'
 import getWindow from 'get-window'
 import pick from 'lodash/pick'
 
-import { ANDROID_API_VERSION } from 'slate-dev-environment'
+import { ANDROID_API_VERSION } from '@whimsicalcode/slate-dev-environment'
 import fixSelectionInZeroWidthBlock from '../utils/fix-selection-in-zero-width-block'
 import getSelectionFromDom from '../utils/get-selection-from-dom'
 import setSelectionFromDom from '../utils/set-selection-from-dom'

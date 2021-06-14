@@ -1,9 +1,9 @@
 import Debug from 'debug'
 import ImmutableTypes from 'react-immutable-proptypes'
 import React from 'react'
-import SlateTypes from 'slate-prop-types'
+import SlateTypes from '@whimsicalcode/slate-prop-types'
 import Types from 'prop-types'
-import { PathUtils } from 'slate'
+import { PathUtils } from '@whimsicalcode/slate'
 
 import Leaf from './leaf'
 

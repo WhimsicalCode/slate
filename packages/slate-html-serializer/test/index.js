@@ -1,10 +1,10 @@
-import Html from 'slate-html-serializer'
+import Html from '@whimsicalcode/slate-html-serializer'
 import assert from 'assert'
 import { JSDOM } from 'jsdom'
-import { Value } from 'slate'
-import { fixtures } from 'slate-dev-test-utils'
+import { Value } from '@whimsicalcode/slate'
+import { fixtures } from '@whimsicalcode/slate-dev-test-utils'
 
-describe('slate-html-serializer', () => {
+describe('@whimsicalcode/slate-html-serializer', () => {
   fixtures(__dirname, 'deserialize', ({ module }) => {
     const { input, output, config, options } = module
     const html = new Html({ parseHtml: JSDOM.fragment, ...config })

@@ -1,5 +1,5 @@
-import Plain from 'slate-plain-serializer'
-import { Editor } from 'slate-react'
+import Plain from '@whimsicalcode/slate-plain-serializer'
+import { Editor } from '@whimsicalcode/slate-react'
 
 import Prism from 'prismjs'
 import React from 'react'

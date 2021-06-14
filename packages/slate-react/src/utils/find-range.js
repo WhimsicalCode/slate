@@ -1,7 +1,7 @@
 import getWindow from 'get-window'
 import invariant from 'tiny-invariant'
-import { IS_IE, IS_EDGE } from 'slate-dev-environment'
-import { Value } from 'slate'
+import { IS_IE, IS_EDGE } from '@whimsicalcode/slate-dev-environment'
+import { Value } from '@whimsicalcode/slate'
 
 import findPoint from './find-point'
 import findDOMPoint from './find-dom-point'

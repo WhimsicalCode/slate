@@ -1,5 +1,5 @@
 import Debug from 'debug'
-import Hotkeys from 'slate-hotkeys'
+import Hotkeys from '@whimsicalcode/slate-hotkeys'
 import ReactDOM from 'react-dom'
 import getWindow from 'get-window'
 import {
@@ -7,7 +7,7 @@ import {
   IS_IE,
   IS_IOS,
   HAS_INPUT_EVENTS_LEVEL_2,
-} from 'slate-dev-environment'
+} from '@whimsicalcode/slate-dev-environment'
 
 import findNode from '../utils/find-node'
 

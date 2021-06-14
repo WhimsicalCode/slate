@@ -1,5 +1,5 @@
 import assert from 'assert'
-import { PathUtils, Operation } from 'slate'
+import { PathUtils, Operation } from '@whimsicalcode/slate'
 
 const assertEqualPaths = (p1, p2) =>
   assert.deepEqual(p1.toArray(), p2.toArray())

@@ -1,5 +1,5 @@
-import { Editor, getEventRange, getEventTransfer } from 'slate-react'
-import { Block, Value } from 'slate'
+import { Editor, getEventRange, getEventTransfer } from '@whimsicalcode/slate-react'
+import { Block, Value } from '@whimsicalcode/slate'
 
 import React from 'react'
 import initialValueAsJson from './value.json'

@@ -1,7 +1,7 @@
 import Debug from 'debug'
 import ImmutableTypes from 'react-immutable-proptypes'
 import React from 'react'
-import SlateTypes from 'slate-prop-types'
+import SlateTypes from '@whimsicalcode/slate-prop-types'
 import warning from 'tiny-warning'
 import Types from 'prop-types'
 

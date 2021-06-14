@@ -8,7 +8,7 @@ import {
   IS_ANDROID,
   IS_FIREFOX,
   HAS_INPUT_EVENTS_LEVEL_2,
-} from 'slate-dev-environment'
+} from '@whimsicalcode/slate-dev-environment'
 
 import EVENT_HANDLERS from '../constants/event-handlers'
 import Node from './node'

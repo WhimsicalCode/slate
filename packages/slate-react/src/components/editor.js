@@ -1,11 +1,11 @@
 import Debug from 'debug'
 import React from 'react'
-import SlateTypes from 'slate-prop-types'
+import SlateTypes from '@whimsicalcode/slate-prop-types'
 import Types from 'prop-types'
 import invariant from 'tiny-invariant'
 import memoizeOne from 'memoize-one'
 import warning from 'tiny-warning'
-import { Editor as Controller } from 'slate'
+import { Editor as Controller } from '@whimsicalcode/slate'
 
 import EVENT_HANDLERS from '../constants/event-handlers'
 import ReactPlugin from '../plugins/react'

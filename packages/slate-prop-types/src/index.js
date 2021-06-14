@@ -10,7 +10,7 @@ import {
   Range,
   Value,
   Text,
-} from 'slate'
+} from '@whimsicalcode/slate'
 
 /**
  * Create a prop type checker for Slate objects with `name` and `validate`.

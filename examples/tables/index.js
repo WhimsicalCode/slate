@@ -1,6 +1,6 @@
-import Plain from 'slate-plain-serializer'
-import { Editor, getEventTransfer } from 'slate-react'
-import { Value } from 'slate'
+import Plain from '@whimsicalcode/slate-plain-serializer'
+import { Editor, getEventTransfer } from '@whimsicalcode/slate-react'
+import { Value } from '@whimsicalcode/slate'
 
 import React from 'react'
 import initialValueAsJson from './value.json'

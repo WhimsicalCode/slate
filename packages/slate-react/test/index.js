@@ -3,11 +3,11 @@ import clean from './helpers/clean'
 import React from 'react'
 import ReactDOM from 'react-dom/server'
 import ShallowRenderer from 'react-test-renderer/shallow'
-import { Editor } from 'slate-react'
-import { fixtures } from 'slate-dev-test-utils'
+import { Editor } from '@whimsicalcode/slate-react'
+import { fixtures } from '@whimsicalcode/slate-dev-test-utils'
 import { JSDOM } from 'jsdom'
 
-describe('slate-react', () => {
+describe('@whimsicalcode/slate-react', () => {
   fixtures(__dirname, 'components', ({ module }) => {
     const { input, output, default: fn } = module
 

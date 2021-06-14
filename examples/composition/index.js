@@ -1,5 +1,5 @@
-import { Editor } from 'slate-react'
-import { Value } from 'slate'
+import { Editor } from '@whimsicalcode/slate-react'
+import { Value } from '@whimsicalcode/slate'
 
 import React from 'react'
 import styled from 'react-emotion'

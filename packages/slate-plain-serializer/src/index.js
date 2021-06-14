@@ -1,4 +1,4 @@
-import { Block, Mark, Node, Value } from 'slate'
+import { Block, Mark, Node, Value } from '@whimsicalcode/slate'
 import { Set } from 'immutable'
 
 /**

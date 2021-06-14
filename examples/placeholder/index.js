@@ -1,6 +1,6 @@
-import { Editor } from 'slate-react'
-import PlaceholderPlugin from 'slate-react-placeholder'
-import { Value } from 'slate'
+import { Editor } from '@whimsicalcode/slate-react'
+import PlaceholderPlugin from '@whimsicalcode/slate-react-placeholder'
+import { Value } from '@whimsicalcode/slate'
 import initialValue from './value.json'
 
 import React from 'react'

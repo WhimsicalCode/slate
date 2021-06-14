@@ -1,5 +1,5 @@
-import { Value } from 'slate'
-import { Editor } from 'slate-react'
+import { Value } from '@whimsicalcode/slate'
+import { Editor } from '@whimsicalcode/slate-react'
 import React from 'react'
 import { List } from 'immutable'
 

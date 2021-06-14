@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import Plain from 'slate-plain-serializer'
+import Plain from '@whimsicalcode/slate-plain-serializer'
 
 const defaultValue = Plain.deserialize('')
 

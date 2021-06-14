@@ -6,7 +6,7 @@
  * Tests.
  */
 
-describe('slate-dev-benchmark', () => {
+describe('@whimsicalcode/slate-dev-benchmark', () => {
   // require('./tries/')
   // require('./time/')
 })

@@ -1,4 +1,4 @@
-import { IS_ANDROID } from 'slate-dev-environment'
+import { IS_ANDROID } from '@whimsicalcode/slate-dev-environment'
 
 /**
  * Array of regular expression matchers and their API version

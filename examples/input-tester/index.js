@@ -1,5 +1,5 @@
-import { Editor, findRange } from 'slate-react'
-import { Value } from 'slate'
+import { Editor, findRange } from '@whimsicalcode/slate-react'
+import { Value } from '@whimsicalcode/slate'
 
 import React from 'react'
 import styled from 'react-emotion'

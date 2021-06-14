@@ -1,7 +1,7 @@
 /** @jsx h */
 
 import h from '../../../helpers/h'
-import { Data } from 'slate'
+import { Data } from '@whimsicalcode/slate'
 
 export default function(editor) {
   editor.setBlocks({

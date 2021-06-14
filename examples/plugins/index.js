@@ -1,5 +1,5 @@
-import Plain from 'slate-plain-serializer'
-import { Editor } from 'slate-react'
+import Plain from '@whimsicalcode/slate-plain-serializer'
+import { Editor } from '@whimsicalcode/slate-react'
 
 import React from 'react'
 import CollapseOnEscape from './collapse-on-escape'

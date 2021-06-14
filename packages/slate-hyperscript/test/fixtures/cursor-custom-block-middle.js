@@ -1,6 +1,6 @@
 /** @jsx h */
 
-import { createHyperscript } from 'slate-hyperscript'
+import { createHyperscript } from '@whimsicalcode/slate-hyperscript'
 
 const h = createHyperscript({
   blocks: {
