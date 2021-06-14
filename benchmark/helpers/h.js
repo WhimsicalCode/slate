@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const { createHyperscript } = require('slate-hyperscript')
+const { createHyperscript } = require('@whimsicalcode/slate-hyperscript')
 
 /**
  * Define a hyperscript.

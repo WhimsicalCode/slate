@@ -4,8 +4,8 @@
 const React = require('react')
 const ReactDOM = require('react-dom/server')
 const h = require('../../helpers/h')
-const { Editor } = require('slate')
-const { Editor: EditorComponent } = require('slate-react')
+const { Editor } = require('@whimsicalcode/slate')
+const { Editor: EditorComponent } = require('@whimsicalcode/slate-react')
 
 module.exports.default = function(value) {
   const el = React.createElement(EditorComponent, { value })

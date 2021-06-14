@@ -1,7 +1,7 @@
 const { basename, extname, resolve } = require('path')
 const { readdirSync } = require('fs')
-const { resetMemoization } = require('slate')
-const { Suite, Bench } = require('slate-dev-benchmark')
+const { resetMemoization } = require('@whimsicalcode/slate')
+const { Suite, Bench } = require('@whimsicalcode/slate-dev-benchmark')
 
 /**
  * Benchmarks.

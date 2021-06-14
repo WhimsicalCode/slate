@@ -1,4 +1,4 @@
-const { repo } = require('slate-dev-benchmark')
+const { repo } = require('@whimsicalcode/slate-dev-benchmark')
 const { resolve } = require('path')
 const { readdirSync } = require('fs')
 const { generateReport } = require('./generate-report')

@@ -21,7 +21,7 @@ function configure(pkg, env, target) {
   const isProd = env === 'production'
   const isUmd = target === 'umd'
   const isModule = target === 'module'
-  const name = pkg.name.replace("@whimsicalcode/", "")
+  const name = pkg.name.replace('@whimsicalcode/', '')
   const input = `packages/${name}/src/index.js`
   const deps = []
     .concat(pkg.dependencies ? Object.keys(pkg.dependencies) : [])

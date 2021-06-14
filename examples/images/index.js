@@ -1,4 +1,8 @@
-import { Editor, getEventRange, getEventTransfer } from '@whimsicalcode/slate-react'
+import {
+  Editor,
+  getEventRange,
+  getEventTransfer,
+} from '@whimsicalcode/slate-react'
 import { Block, Value } from '@whimsicalcode/slate'
 
 import React from 'react'

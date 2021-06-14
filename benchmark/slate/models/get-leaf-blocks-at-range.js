@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-key */
 
 const h = require('../../helpers/h')
-const { Editor } = require('slate')
+const { Editor } = require('@whimsicalcode/slate')
 
 module.exports.default = function(value) {
   value.document.getLeafBlocksAtRange(value.selection)

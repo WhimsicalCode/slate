@@ -14,9 +14,9 @@ if (grep) {
 
   module.exports.include = {
     slate: pattern,
-    'slate-html-serializer': pattern,
-    'slate-plain-serializer': pattern,
-    'slate-react': pattern,
+    '@whimsicalcode/slate-html-serializer': pattern,
+    '@whimsicalcode/slate-plain-serializer': pattern,
+    '@whimsicalcode/slate-react': pattern,
   }
 } else {
   let { config = 'tmp/benchmark-config.js' } = program
@@ -31,9 +31,9 @@ if (grep) {
   } else {
     module.exports.include = {
       slate: /^/,
-      'slate-html-serializer': /^/,
-      'slate-plain-serializer': /^/,
-      'slate-react': /^/,
+      '@whimsicalcode/slate-html-serializer': /^/,
+      '@whimsicalcode/slate-plain-serializer': /^/,
+      '@whimsicalcode/slate-react': /^/,
     }
   }
 }
