@@ -19,17 +19,17 @@
     "is-plain-object": "^2.0.4"
   },
   "peerDependencies": {
-    "slate": ">=0.42.0"
+    "@whimsicalcode/slate": ">=0.42.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
-    "slate": "^0.45.0"
+    "@whimsicalcode/slate": "^0.45.0"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
   },
   "umdGlobals": {
-    "slate": "Slate"
+    "@whimsicalcode/slate": "Slate"
   },
   "keywords": [
     "hyperscript",

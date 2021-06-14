@@ -17,19 +17,19 @@
   ],
   "peerDependencies": {
     "immutable": ">=3.8.1",
-    "slate": ">=0.32.0"
+    "@whimsicalcode/slate": ">=0.32.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
-    "slate": "^0.45.0",
-    "slate-hyperscript": "^0.11.29"
+    "@whimsicalcode/slate": "^0.45.0",
+    "@whimsicalcode/slate-hyperscript": "^0.11.29"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
   },
   "umdGlobals": {
     "immutable": "Immutable",
-    "slate": "Slate"
+    "@whimsicalcode/slate": "Slate"
   },
   "keywords": [
     "deserialize",

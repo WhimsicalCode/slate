@@ -16,11 +16,11 @@
     "lib/"
   ],
   "peerDependencies": {
-    "slate": ">=0.32.0"
+    "@whimsicalcode/slate": ">=0.32.0"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
-    "slate": "^0.45.0"
+    "@whimsicalcode/slate": "^0.45.0"
   },
   "dependencies": {
     "isomorphic-base64": "^1.0.2"
@@ -29,7 +29,7 @@
     "clean": "rm -rf ./dist ./lib ./node_modules"
   },
   "umdGlobals": {
-    "slate": "Slate"
+    "@whimsicalcode/slate": "Slate"
   },
   "keywords": [
     "deserialize",

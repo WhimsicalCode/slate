@@ -84,13 +84,13 @@
     "webpack-dev-server": "^2.11.1"
   },
   "peerDependencies": {
-    "slate": "*",
-    "slate-dev-benchmark": "*",
-    "slate-dev-test-utils": "*",
-    "slate-html-serializer": "*",
-    "slate-plain-serializer": "*",
-    "slate-react": "*",
-    "slate-react-placeholder": "*"
+    "@whimsicalcode/slate": "*",
+    "@whimsicalcode/slate-dev-benchmark": "*",
+    "@whimsicalcode/slate-dev-test-utils": "*",
+    "@whimsicalcode/slate-html-serializer": "*",
+    "@whimsicalcode/slate-plain-serializer": "*",
+    "@whimsicalcode/slate-react": "*",
+    "@whimsicalcode/slate-react-placeholder": "*"
   },
   "scripts": {
     "benchmark": "cross-env COMPARE=compare node --expose-gc ./tmp/benchmark/index.js",

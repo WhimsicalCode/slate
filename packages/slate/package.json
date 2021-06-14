@@ -29,8 +29,8 @@
     "immutable": ">=3.8.1"
   },
   "devDependencies": {
-    "slate-dev-test-utils": "^0.0.1",
-    "slate-hyperscript": "^0.11.29"
+    "@whimsicalcode/slate-dev-test-utils": "^0.0.1",
+    "@whimsicalcode/slate-hyperscript": "^0.11.29"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

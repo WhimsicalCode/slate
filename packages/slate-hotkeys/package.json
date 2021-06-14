@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "is-hotkey": "0.1.4",
-    "slate-dev-environment": "^0.2.2"
+    "@whimsicalcode/slate-dev-environment": "^0.2.2"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

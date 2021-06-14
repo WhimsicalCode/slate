@@ -17,11 +17,11 @@
   ],
   "peerDependencies": {
     "react": ">=0.14.0",
-    "slate": ">=0.43.6"
+    "@whimsicalcode/slate": ">=0.43.6"
   },
   "devDependencies": {
     "mocha": "^2.5.3",
-    "slate": "^0.45.0",
+    "@whimsicalcode/slate": "^0.45.0",
     "tiny-invariant": "^1.0.1"
   },
   "scripts": {
@@ -29,7 +29,7 @@
   },
   "umdGlobals": {
     "react": "React",
-    "slate": "Slate"
+    "@whimsicalcode/slate": "Slate"
   },
   "keywords": [
     "editor",

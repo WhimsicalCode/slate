@@ -43,8 +43,8 @@
     "immutable": "^3.8.1",
     "mocha": "^2.5.3",
     "react-test-renderer": "^16.6.3",
-    "slate": "^0.45.0",
-    "slate-hyperscript": "^0.11.29"
+    "@whimsicalcode/slate": "^0.45.0",
+    "@whimsicalcode/slate-hyperscript": "^0.11.29"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
@@ -53,7 +53,7 @@
     "immutable": "Immutable",
     "react": "React",
     "react-dom": "ReactDOM",
-    "slate": "Slate"
+    "@whimsicalcode/slate": "Slate"
   },
   "keywords": [
     "canvas",
