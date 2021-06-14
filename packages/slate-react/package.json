@@ -1,9 +1,12 @@
 {
-  "name": "slate-react",
+  "name": "@whimsicalcode/slate-react",
   "description": "A set of React components for building completely customizable rich-text editors.",
   "version": "0.21.20",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/whimsicalcode/slate.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "main": "lib/slate-react.js",
   "module": "lib/slate-react.es.js",
   "umd": "dist/slate-react.js",

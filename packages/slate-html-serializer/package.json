@@ -1,9 +1,12 @@
 {
-  "name": "slate-html-serializer",
+  "name": "@whimsicalcode/slate-html-serializer",
   "description": "An HTML serializer for Slate editors.",
   "version": "0.7.38",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/whimsicalcode/slate.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "main": "lib/slate-html-serializer.js",
   "module": "lib/slate-html-serializer.es.js",
   "umd": "dist/slate-html-serializer.js",

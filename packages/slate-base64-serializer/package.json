@@ -1,9 +1,12 @@
 {
-  "name": "slate-base64-serializer",
+  "name": "@whimsicalcode/slate-base64-serializer",
   "description": "A Base64 serializer for Slate editors.",
   "version": "0.2.99",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/whimsicalcode/slate.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "main": "lib/slate-base64-serializer.js",
   "module": "lib/slate-base64-serializer.es.js",
   "umd": "dist/slate-base64-serializer.js",

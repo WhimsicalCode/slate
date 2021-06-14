@@ -1,9 +1,12 @@
 {
-  "name": "slate",
+  "name": "@whimsicalcode/slate",
   "description": "A completely customizable framework for building rich text editors.",
   "version": "0.45.0",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/whimsicalcode/slate.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "main": "lib/slate.js",
   "module": "lib/slate.es.js",
   "umd": "dist/slate.js",

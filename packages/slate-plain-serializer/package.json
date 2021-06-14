@@ -1,9 +1,12 @@
 {
-  "name": "slate-plain-serializer",
+  "name": "@whimsicalcode/slate-plain-serializer",
   "description": "A plain text serializer for Slate editors.",
   "version": "0.6.38",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/whimsicalcode/slate.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "main": "lib/slate-plain-serializer.js",
   "module": "lib/slate-plain-serializer.es.js",
   "umd": "dist/slate-plain-serializer.js",

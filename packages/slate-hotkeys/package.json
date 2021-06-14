@@ -1,9 +1,12 @@
 {
-  "name": "slate-hotkeys",
+  "name": "@whimsicalcode/slate-hotkeys",
   "description": "A set of function to detect common keypresses in a platform-agnostic way",
   "version": "0.2.9",
   "license": "MIT",
-  "repository": "git://github.com/ianstormtaylor/slate.git",
+  "repository": "git://github.com/whimsicalcode/slate.git",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "main": "lib/slate-hotkeys.js",
   "module": "lib/slate-hotkeys.es.js",
   "umd": "dist/slate-hotkeys.js",
