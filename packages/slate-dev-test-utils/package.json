@@ -1,11 +1,11 @@
 {
   "name": "@whimsicalcode/slate-dev-test-utils",
   "description": "INTERNAL: A set of utils for Slate's core tests.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "repository": "git://github.com/whimsicalcode/slate.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "src/index.js",
   "files": [

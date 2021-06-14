@@ -1,11 +1,11 @@
 {
   "name": "@whimsicalcode/slate",
   "description": "A completely customizable framework for building rich text editors.",
-  "version": "0.45.0",
+  "version": "0.45.1",
   "license": "MIT",
   "repository": "git://github.com/whimsicalcode/slate.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "lib/slate.js",
   "module": "lib/slate.es.js",
@@ -29,8 +29,8 @@
     "immutable": ">=3.8.1"
   },
   "devDependencies": {
-    "@whimsicalcode/slate-dev-test-utils": "^0.0.1",
-    "@whimsicalcode/slate-hyperscript": "^0.11.29"
+    "@whimsicalcode/slate-dev-test-utils": "^0.0.2",
+    "@whimsicalcode/slate-hyperscript": "^0.11.30"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

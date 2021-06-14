@@ -1,11 +1,11 @@
 {
   "name": "@whimsicalcode/slate-react",
   "description": "A set of React components for building completely customizable rich-text editors.",
-  "version": "0.21.20",
+  "version": "0.21.21",
   "license": "MIT",
   "repository": "git://github.com/whimsicalcode/slate.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "lib/slate-react.js",
   "module": "lib/slate-react.es.js",
@@ -16,6 +16,12 @@
     "lib/"
   ],
   "dependencies": {
+    "@whimsicalcode/slate-base64-serializer": "^0.2.100",
+    "@whimsicalcode/slate-dev-environment": "^0.2.3",
+    "@whimsicalcode/slate-hotkeys": "^0.2.10",
+    "@whimsicalcode/slate-plain-serializer": "^0.6.39",
+    "@whimsicalcode/slate-prop-types": "^0.5.30",
+    "@whimsicalcode/slate-react-placeholder": "^0.1.18",
     "debug": "^3.1.0",
     "get-window": "^1.1.1",
     "is-window": "^1.0.2",
@@ -24,27 +30,21 @@
     "prop-types": "^15.5.8",
     "react-immutable-proptypes": "^2.1.0",
     "selection-is-backward": "^1.0.0",
-    "@whimsicalcode/slate-base64-serializer": "^0.2.99",
-    "@whimsicalcode/slate-dev-environment": "^0.2.2",
-    "@whimsicalcode/slate-hotkeys": "^0.2.9",
-    "@whimsicalcode/slate-plain-serializer": "^0.6.38",
-    "@whimsicalcode/slate-prop-types": "^0.5.29",
-    "@whimsicalcode/slate-react-placeholder": "^0.1.17",
     "tiny-invariant": "^1.0.1",
     "tiny-warning": "^0.0.3"
   },
   "peerDependencies": {
+    "@whimsicalcode/slate": ">=0.43.6",
     "immutable": ">=3.8.1",
     "react": ">=0.14.0",
-    "react-dom": ">=0.14.0",
-    "@whimsicalcode/slate": ">=0.43.6"
+    "react-dom": ">=0.14.0"
   },
   "devDependencies": {
+    "@whimsicalcode/slate": "^0.45.1",
+    "@whimsicalcode/slate-hyperscript": "^0.11.30",
     "immutable": "^3.8.1",
     "mocha": "^2.5.3",
-    "react-test-renderer": "^16.6.3",
-    "@whimsicalcode/slate": "^0.45.0",
-    "@whimsicalcode/slate-hyperscript": "^0.11.29"
+    "react-test-renderer": "^16.6.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

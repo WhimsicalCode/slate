@@ -1,11 +1,11 @@
 {
   "name": "@whimsicalcode/slate-html-serializer",
   "description": "An HTML serializer for Slate editors.",
-  "version": "0.7.38",
+  "version": "0.7.39",
   "license": "MIT",
   "repository": "git://github.com/whimsicalcode/slate.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "lib/slate-html-serializer.js",
   "module": "lib/slate-html-serializer.es.js",
@@ -19,15 +19,15 @@
     "type-of": "^2.0.1"
   },
   "peerDependencies": {
+    "@whimsicalcode/slate": ">=0.32.0",
     "immutable": ">=3.8.1",
     "react": ">=0.14.0",
-    "react-dom": ">=0.14.0",
-    "@whimsicalcode/slate": ">=0.32.0"
+    "react-dom": ">=0.14.0"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "@whimsicalcode/slate": "^0.45.0",
-    "@whimsicalcode/slate-hyperscript": "^0.11.29"
+    "@whimsicalcode/slate": "^0.45.1",
+    "@whimsicalcode/slate-hyperscript": "^0.11.30",
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"

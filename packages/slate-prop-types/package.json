@@ -1,11 +1,11 @@
 {
   "name": "@whimsicalcode/slate-prop-types",
   "description": "A set of React prop type checkers for Slate editors.",
-  "version": "0.5.29",
+  "version": "0.5.30",
   "license": "MIT",
   "repository": "git://github.com/whimsicalcode/slate.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "lib/slate-prop-types.js",
   "module": "lib/slate-prop-types.es.js",
@@ -16,12 +16,12 @@
     "lib/"
   ],
   "peerDependencies": {
-    "immutable": ">=3.8.1",
-    "@whimsicalcode/slate": ">=0.32.0"
+    "@whimsicalcode/slate": ">=0.32.0",
+    "immutable": ">=3.8.1"
   },
   "devDependencies": {
-    "mocha": "^2.5.3",
-    "@whimsicalcode/slate": "^0.45.0"
+    "@whimsicalcode/slate": "^0.45.1",
+    "mocha": "^2.5.3"
   },
   "scripts": {
     "clean": "rm -rf ./dist ./lib ./node_modules"
